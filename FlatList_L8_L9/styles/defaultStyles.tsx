@@ -16,6 +16,7 @@ const defaultStyles = StyleSheet.create({
     padding: 10,
     borderWidth: 1,
     borderColor: colors.primary,
+    borderRadius: 30,
   },
   text: {
     fontSize: 16,
