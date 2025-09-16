@@ -23,34 +23,11 @@ const ListItem: React.FC<propsType> = ({item, isSelected, onPress}) => {
 export default ListItem;
 
 const styles = StyleSheet.create({
-  list: {
-    backgroundColor: colors.secondary,
-    padding: 5,
-    height: 60,
-    width: 350,
-    borderTopLeftRadius: 15,
-    borderTopRightRadius: 15,
-    marginTop: 5,
-  },
-  text: {
-    color: colors.text.dark,
-    fontSize: 20,
-  },
-    flatlist: {
-    alignItems: "center",
-  },
-  titleContainer: {
-    marginTop: 5,
-    width: 300,
-    borderTopLeftRadius: 15,
-    borderTopRightRadius: 15,
-  },
   titleText: {
     fontSize: 24,
     padding: 10,
   },
   flatListRow: {
-    // backgroundColor: "lightgreen",
     margin: 5,
     padding: 5,
     width: "100%",
